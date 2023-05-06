@@ -1,4 +1,5 @@
 import {  FaSearch, FaShoppingCart} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 import DropDown from './DropDown';
 function NavBar() {
   return (
@@ -21,7 +22,10 @@ function NavBar() {
                 <option value="">Biscuits</option>
               </select>
             </li>
-            <li className='mr-9'>Deals</li>
+            <li className='mr-9'>
+              <Link to="/signup"> Deals
+              </Link> 
+              </li>
             <li className='mr-9'>What's New</li>
             <li className='mr-9'>Delivery</li>
             <div>
