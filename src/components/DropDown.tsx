@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { FaAngleDown, FaAngleUp, FaUser } from "react-icons/fa"
 
 function DropDown() {
-    const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false);
+    // const [isLoggedIn, setIsLoggedIn] = useState(false)
 
     return (
         <>

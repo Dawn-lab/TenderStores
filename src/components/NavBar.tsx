@@ -23,7 +23,7 @@ function NavBar() {
               </select>
             </li>
             <li className='mr-9'>
-              <Link to="/signup"> Deals
+              <Link to="/login"> Deals
               </Link> 
               </li>
             <li className='mr-9'>What's New</li>
